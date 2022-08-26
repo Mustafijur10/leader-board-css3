@@ -28,7 +28,49 @@ hr {
 }
 
 
+/* navigation section  */
+.nav-section {
+    width: 1366px;
+    height: 94px;
+    background-color: #562EFF;
+    margin-bottom: 15px;
+}
 
+.display {
+    display: flex;
+    justify-content: space-between;
+}
+
+.idea-logo img {
+    width: 40.42px;
+    height: 51px;
+    margin-top: 26px;
+    margin-left: 205px;
+}
+
+.idea-title {
+    color: #ffffff;
+    font-size: 24px;
+    margin-left: 261px;
+    margin-top: -50px;
+}
+
+.links {
+    margin-right: 240px;
+
+}
+
+.links img {
+    width: 51px;
+    height: 51px;
+    margin-top: 23px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 40px;
+}
 
 /* top players style  */
 .section-title {
@@ -105,6 +147,8 @@ hr {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
+    border-radius: 5px;
+
 }
 
 .course .course-banner img {
@@ -130,5 +174,16 @@ hr {
 
 .fa-star.empty {
     color: #AEAEAE;
+
+}
+
+.course-duration {
+    background-color: #FFE4E8;
+    width: 94.83px;
+    height: 29.38px;
+    border-radius: 14.6913px;
+    color: #FF4A60;
+    text-align: center;
+    position: relative;
 
 }
